@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+      <div class="grid-container">
+          <div class="colums">
+            <div class="container">
+                <div class="content">
+                    <h1 class="title">Shopping Cart 1</h1>
+                    <br>
+                    <br>
+                    <div id="total-items">
+                        <span>Add 6 items: </span>
+                    </div>
+                    <div class="buttons">
+                        <button id="button-1">Add item</button>
+                        <button id="button-2">Remove</button>
+                    </div>
+                    <span></span>
+                    <ul id="shopping-list"></ul>
+                </div>
+            </div>
+          </div>
+          <div class="colums">
+            <div class="container">
+                <div class="content">
+                    <h1 class="title">Shopping Cart 2</h1>
+                    <ul id="list-items">
+                        <span>Position: 1<li></li></span>
+                        <span>Position: 2<li></li></span>
+                        <span>Position: 3<li></li></span>
+                    </ul>
+                    <div class="text-box">
+                        <label>Add to the list:</label>
+                        <input type="text" id="user-text">
+                    </div>
+                    <br>
+                        <label>Select position:</label>
+                        <select class="select-op">
+                            <option value="1" >1</option>
+                            <option value="2" >2</option>
+                            <option value="3" >3</option> 
+                        </select>
+                        <input type="submit"  id="submit-btn" value="submit">
+                        <input type="reset" id="clear-btn" value="clear">
+                </div>
+              </div>    
+          </div>
+          <div class="colums"></div>
+      </div>
+
+      <script src="./script.js"></script>
+</body>
+</html>

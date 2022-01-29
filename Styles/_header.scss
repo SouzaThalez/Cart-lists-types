@@ -1,0 +1,10 @@
+$SolidBorder: 1px solid rgb(67, 26, 182);
+
+.img-container {
+  width: 536px;
+  height: 300px;
+  margin: auto;
+  border: $SolidBorder;
+  border-radius: 10px;
+  display: flex;
+}
